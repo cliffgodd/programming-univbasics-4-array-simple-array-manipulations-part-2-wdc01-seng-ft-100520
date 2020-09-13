@@ -16,11 +16,9 @@ def using_flatten(instruments)
 end
 
 def using_delete(instructors, string)
-  string = "Steven"
   instructors.delete(string)
 end
 
 def using_delete_at(famous_robots, index)
-  index = 2
-  famous_robots.delete_at(2)
+  famous_robots.delete_at(index)
 end
